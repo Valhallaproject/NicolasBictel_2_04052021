@@ -11,15 +11,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.fa-map-marker-alt,
-.fa-search,
-.fa-money-bill-wave,
-.fa-child,
-.fa-heart,
-.fa-dog{ 
-    line-height: 50px;
-    -moz-block-height: 50px;
-}
+
 
 /*----- NAVBAR -----*/
 header{
@@ -81,8 +73,7 @@ p{
     margin-top: 5px;
 }
 .barsearch{
-    position: relative;
-    display: table-cell;
+    display: inline-block;
     vertical-align: middle;
     height: 50px;
     margin-top: 30px;
@@ -110,6 +101,7 @@ button{
 .barsearch .fa-map-marker-alt{
     background-color: #F2F2F2;
     border-radius: 10px 0 0 10px;
+    line-height: 50px;
 }
 i{
     width: 50px;
@@ -123,6 +115,7 @@ i{
     height: 50px;
     width: 80%;
     margin-top: 15px;
+    line-height: 50px;
 }
 .select_filtre{
     margin-left: 20px;
@@ -140,8 +133,7 @@ i{
     color: #0065FC;
     background-color: #DEEBFF;
     border-radius: 25px; 
-    margin-top: -2px;
-    margin-left: -2px;
+    line-height: 50px;
 }
 .select_filtre{
     display: flex;
@@ -255,6 +247,9 @@ i{
     border-radius: 50px;
     padding: 40px ;
     height: 581px;
+}
+.titre_cards .fa-chart-line{
+    line-height: 40px;
 }
 .vignette_pop{
     display: flex;
@@ -463,8 +458,9 @@ footer{
         padding: 0;
         height: auto;
     }
-    .fa-chart-line{
-        line-height: 100px;
+    .titre_cards .fa-chart-line{
+        line-height: 40px;
+        margin-top: 30px;
     }
     .container_pop{
         display: flex;
@@ -498,7 +494,7 @@ footer{
     .icon_filtre{
         display: flex;
         flex-wrap: wrap;
-        width: 80%;
+        width: 90%;
 
     }
     /*-----HEBERGEMENT-----*/
@@ -673,13 +669,14 @@ footer{
         justify-content: space-between;
         margin-left: 5%;
     }
+    .barsearch .fa-search{
+        line-height: 50px;
+    }
     .fa-search{
         display: block;
         background-color: #0065FC;
         color: white;
         border-radius: 10px;
-        line-height: 50px;
-        -moz-block-height: 500px;
         cursor: pointer;
     }
     button{
