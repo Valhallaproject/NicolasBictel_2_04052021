@@ -62,8 +62,7 @@ nav a{
 
 #recherche{
     max-width: 1400px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin:50px 5% 0 5% 
 }
 h1{
     font-weight: bold;
@@ -94,7 +93,7 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-.fa-search{
+.barsearch .fa-search{
     display: none;
 }
 .barsearch .fa-map-marker-alt{
@@ -113,7 +112,7 @@ i{
     justify-content: start;
     height: 50px;
     width: 80%;
-    margin-top: 15px;
+    margin-top: 30px;
     line-height: 50px;
 }
 .select_filtre{
@@ -248,7 +247,7 @@ i{
     height: 581px;
 }
 .titre_cards .fa-chart-line{
-    line-height: 40px;
+    line-height: 35px;
 }
 .vignette_pop{
     display: flex;
@@ -565,7 +564,7 @@ footer{
     /*-----RECHERCHE-----*/
 
     h1{
-        width: 90%;
+        width: 100%;
     }
     /*-----SECTION HEBERGEMENT-----*/
     /*-----hebergement-----*/
@@ -671,7 +670,7 @@ footer{
     .barsearch .fa-search{
         line-height: 50px;
     }
-    .fa-search{
+    .barsearch .fa-search{
         display: block;
         background-color: #0065FC;
         color: white;
