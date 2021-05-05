@@ -17,7 +17,9 @@ a{
 .fa-child,
 .fa-heart,
 .fa-dog{ 
-    line-height: 50px;
+    line-height: 50
+
+;
     -moz-block-height: 50px;
 }
 
