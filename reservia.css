@@ -42,8 +42,10 @@ nav a{
     margin-right: 30px;
     margin-top: 50px;
 }
+
 .item:hover {
-    border-top: solid 1px #0065FC;
+    box-shadow: inset 0 1px 0 0 #0065FC;
+    
 }
 .item:hover a{
     color: #0065FC;
@@ -62,7 +64,7 @@ nav a{
 
 #recherche{
     max-width: 1400px;
-    margin:50px 5% 0 5% 
+    margin:0 auto ;
 }
 h1{
     font-weight: bold;
@@ -110,7 +112,7 @@ i{
 .filtre {
     display: flex;
     justify-content: start;
-    height: 50px;
+    height: fit-content;
     width: 80%;
     margin-top: 30px;
     line-height: 50px;
@@ -154,6 +156,7 @@ i{
 }
 .info{
     display: flex;
+
 }
 .info i{
     margin-right: 20px;
@@ -497,9 +500,7 @@ footer{
 
     }
     /*-----HEBERGEMENT-----*/
-    #hebergement{
-        margin-top: 100px;
-    }
+    
 }
 
 @media screen and (max-width: 771px){
@@ -555,9 +556,7 @@ footer{
         margin-top: 100px;
     }
     /*-----HEBERGEMENT-----*/
-    #hebergement{
-        margin-top: 150px;
-    }
+    
     
 }
 
@@ -594,9 +593,7 @@ footer{
     }
     /*-----SECTION HEBERGEMENT-----*/
     /*-----hebergement-----*/
-    #hebergement{
-        margin-top: 200px;
-    }
+    
     .cards_hebergement{
         background-color: #fff;
         
@@ -682,3 +679,4 @@ footer{
         display: none;
     }
 }
+
